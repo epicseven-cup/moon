@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component>
+    <name>org.freedesktop.IBus.Moon</name>
+    <description>Smart Input Engine</description>
+    <exec>/home/tomato/moon/run_engine.sh</exec>
+    <version>1.0</version>
+    <author>Tomato</author>
+    <engines>
+        <engine>
+            <name>Moon</name>
+            <language>en</language>
+            <longname>Moon-engine</longname>
+            <author>Tomato</author>
+            <layout>us</layout>
+            <description>smart suggestion</description>
+        </engine>
+    </engines>
+</component>

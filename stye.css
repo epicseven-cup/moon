@@ -1,0 +1,49 @@
+
+window,
+.ibus-panel,
+window.background,
+#ibus-candidate-panel {
+    background-color: #1e1e2e !important;
+    border-radius: 12px !important;
+    border: 1px solid #45475a !important;
+    padding: 12px !important;
+}
+
+label,
+.auxiliary-text,
+textview,
+text {
+    color: #f9e2af !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+
+.auxiliary-text {
+    background-color: rgba(249, 226, 175, 0.1) !important;
+    padding: 8px 12px !important;
+    border-radius: 6px !important;
+}
+
+.candidate,
+.candidate-item,
+.candidate-label,
+row,
+box {
+    color: #cdd6f4 !important;
+    padding: 9px 12px !important;
+    font-size: 15px !important;
+}
+
+.candidate:selected,
+.candidate.selected,
+row:selected,
+*:selected {
+    background-color: #fab387 !important;
+    color: #1e1e2e !important;
+    font-weight: 500 !important;
+}
+
+separator {
+    background-color: #45475a !important;
+    min-height: 1px !important;
+}

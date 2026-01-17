@@ -1,0 +1,28 @@
+[project]
+name = "moon"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=1.2.3",
+    "llama-cpp-python>=0.3.16",
+    "pycairo>=1.29.0",
+    "pygobject>=3.54.5",
+    "pyside6>=6.10.1",
+    "symspellpy>=6.9.0",
+    "textblob>=0.19.0",
+]
+
+[dependency-groups]
+dev = [
+    "pygobject-stubs>=2.16.0",
+]
+
+
+[tool.ty.environment]
+extra-paths = [
+"/usr/lib/python3/dist-packages",
+"/usr/lib/python3.12/dist-packages",
+"/usr/lib/girepository-1.0"
+]
