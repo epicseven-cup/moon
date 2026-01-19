@@ -1,0 +1,11 @@
+Source: moon-ibus
+Section: utils
+Priority: optional
+Maintainer: Jacky Lin <jackylin616@gmail.com>
+Build-Depends: debhelper-compat (= 13), python3, libibus-1.0-dev
+Standards-Version: 4.6.2
+
+Package: moon-ibus
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ibus, python3-gi
+Description: Smart suggestion AI ibus engine

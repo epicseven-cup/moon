@@ -1,0 +1,3 @@
+!#
+
+read -p "Version: " version
